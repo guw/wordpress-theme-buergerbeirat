@@ -1,5 +1,16 @@
 <?php
 
+ /*
+  * GitHub Auto-Deploy Script
+  * (https://gist.github.com/3491416)
+  */
+  
+  // verify secret
+  $secret = file_get_contents("/srv/webs/ausapolda.de/.deploysecret");
+  if(!isset($_REQUEST['secret']) || !strcmp($_REQUEST['secret'], $secret)) {
+       die('Bad Request');
+  }
+
   // The repo/site to deploy
   /*
   $clientIp = '';
