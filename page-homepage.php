@@ -76,11 +76,11 @@ Template Name: Homepage
 
 							<div class="hero-unit span12">
 
-								<div class="span4">
+								<div class="span2">
 								  <?php the_post_thumbnail( 'wpbs-featured-home' ); ?>
 								</div>
 
-								<div class="span8">
+								<div class="span10">
 								  <h1><?php the_title(); ?></h1>
 								  <?php echo get_post_meta($post->ID, 'custom_tagline' , true);?>
 								</div>
