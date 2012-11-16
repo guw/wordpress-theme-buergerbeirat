@@ -74,15 +74,9 @@ Template Name: Homepage
 					
 						<header>
 
-							<?php 
-								$post_thumbnail_id = get_post_thumbnail_id();
-								$featured_src = wp_get_attachment_image_src( $post_thumbnail_id, 'wpbs-featured-home' ); 
-								// not sure why this isn't working yet
-							?>
-						
-							<div class="hero-unit" style="background-image: url('<?php echo $featured_src; ?>'); background-repeat: no-repeat; background-position: 0 0;">
+							<div class="hero-unit">
 
-								<?php the_post_thumbnail( 'wpbs-featured-home' ); ?>
+								<div style="float:left; margin:1em;"><?php the_post_thumbnail( 'wpbs-featured-home' ); ?></div>
 
 								<h1><?php the_title(); ?></h1>
 								
