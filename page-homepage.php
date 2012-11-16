@@ -74,13 +74,16 @@ Template Name: Homepage
 					
 						<header>
 
-							<div class="hero-unit">
+							<div class="hero-unit span12">
 
-								<div style="float:left; margin:1em;"><?php the_post_thumbnail( 'wpbs-featured-home' ); ?></div>
+								<div class="span4">
+								  <?php the_post_thumbnail( 'wpbs-featured-home' ); ?>
+								</div>
 
-								<h1><?php the_title(); ?></h1>
-								
-								<?php echo get_post_meta($post->ID, 'custom_tagline' , true);?>
+								<div class="span8">
+								  <h1><?php the_title(); ?></h1>
+								  <?php echo get_post_meta($post->ID, 'custom_tagline' , true);?>
+								</div>
 							
 							</div>
 
