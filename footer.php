@@ -1,4 +1,4 @@
-			<footer role="contentinfo">
+﻿			<footer role="contentinfo">
 			
 				<div id="inner-footer" class="clearfix">
 		          <hr />
@@ -15,7 +15,7 @@
 						<?php bones_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
 					
-					<p class="pull-right"><a href="/impressum" title="Impressum der Seite �ffnen">Impressum</a></p>
+					<p class="pull-right"><a href="/impressum" title="Impressum der Seite öffnen">Impressum</a></p>
 			
 					<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
 				
