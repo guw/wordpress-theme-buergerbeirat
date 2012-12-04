@@ -49,9 +49,9 @@ function bones_queue_js(){ if (!is_admin()){ if ( is_singular() AND comments_ope
 function bones_excerpt_more($more) {
 	global $post;
 	// edit here if you like
-	return '...  <a href="'. get_permalink($post->ID) . '" class="more-link" title="Read '.get_the_title($post->ID).'">Read more &raquo;</a>';
+	return '...  <a href="'. get_permalink($post->ID) . '" class="more-link" title="Read '.get_the_title($post->ID).'">Mehr &raquo;</a>';
 }
-//add_filter('excerpt_more', 'bones_excerpt_more');
+add_filter('excerpt_more', 'bones_excerpt_more');
 	
 // Adding WP 3+ Functions & Theme Support
 function bones_theme_support() {
