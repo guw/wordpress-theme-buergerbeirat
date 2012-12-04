@@ -19,7 +19,7 @@
 						</header> <!-- end article header -->
 					
 						<section class="post_content">
-							<?php the_excerpt('<span class="read-more">' . __("Read more on","bonestheme") . ' "'.the_title('', '', false).'" &raquo;</span>'); ?>
+							<?php the_excerpt('<span class="read-more">' . __("Mehr über","bonestheme") . ' "'.the_title('', '', false).'" &raquo;</span>'); ?>
 					
 						</section> <!-- end article section -->
 						

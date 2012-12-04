@@ -49,7 +49,7 @@ Template Name: Homepage
 					                			$the_excerpt = substr( $the_excerpt, 0, $excerpt_length );
 					                			echo $the_excerpt . '... ';
 					                	?>
-					                	<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" class="btn btn-primary">Read more &rsaquo;</a>
+					                	<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" class="btn btn-primary">Mehr &rsaquo;</a>
 					                	<?php } ?>
 					                </p>
 
